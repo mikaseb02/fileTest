@@ -17,7 +17,7 @@ def fileRead(path, delimit, numberColumn) :
     nbPrec = 0
     for line in file:
         a = line
-        print a
+        print "line read on file : " + a
         b = a.split(delimit)
         if len(b) == numberColumn:
             print("OK")
